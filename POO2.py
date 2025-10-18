@@ -8,6 +8,3 @@ class Usuario:
         print(f"Olá, meu nome é {self.nome} nasci em {self.dtNasc}")
     
 
-user01= Usuario("JP", "00/00/0000", 2)
-
-user01.apresentar()
