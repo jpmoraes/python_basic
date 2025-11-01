@@ -1,4 +1,5 @@
 import Usuario as us
+import Admin as adm
 
 nome = input("Nome: ")
 dataNasc = input("Data de nascimento: ").strip()
@@ -30,3 +31,12 @@ dadosEncontrados = user01.listar_usuario(nomeBuscado)
 
 if dadosEncontrados:
     print(f"Data de nascimento encontrada: {dadosEncontrados}")
+
+
+# Criar admin
+adm = adm.Admin()
+adm.nome_usuario = "Ana"
+adm.dtNasc = "02/02/1980"
+adm.cadastrar_usuario()
+adm.criar_senha("Ana", "12345")
+adm.apresentar()

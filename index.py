@@ -39,9 +39,10 @@ while True:
 
   if(op == 1):
     CadastrarUsuario()
+    
   elif(op == 2):
 
-    nome = input("Qual nome você busca? ")
+    nome = input("Qual usuário você busca? ")
 
     resultado = ListarUsuario(nome)
 

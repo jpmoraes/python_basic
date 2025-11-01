@@ -5,18 +5,18 @@ class Usuario:
         self.__nome = None
         self.dtNasc = None
         self.filhos = None        
-
-    # Getter
+    
+     # Getter
     @property
     def nome_usuario(self):
-        return self.__nome
+        return self.__nome  
 
     # Setter
     @nome_usuario.setter
     def nome_usuario(self, novo_nome):
         self.__nome = novo_nome
 
-   
+
     def apresentar(self):
         print(f"Olá, meu nome é {self.__nome} e nasci em {self.dtNasc}")
 
